@@ -26,7 +26,7 @@ const FotosTrabajos = ({ show, handleClose }) => {
                 <Carousel>
                     {imagenes.map((img, index) => (
                         <Carousel.Item key={index}>
-                            <img src={img} alt={`Trabajo ${index + 1}`} loading='lazy' className="d-block w-100 img-fluid" />
+                            <img src={img} alt={`Trabajo ${index + 1}`} className="d-block w-100 img-fluid" />
                         </Carousel.Item>
                     ))}
                 </Carousel>
